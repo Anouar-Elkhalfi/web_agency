@@ -1,0 +1,22 @@
+#contact {
+  padding: 60px 0;
+
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+  }
+
+  form {
+    .form-control {
+      margin-bottom: 20px;
+    }
+    .btn-primary {
+      background-color: #f0a500;
+      border-color: #f0a500;
+      &:hover {
+        background-color: #d08900;
+      }
+    }
+  }
+}
