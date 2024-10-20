@@ -1,0 +1,37 @@
+// responsive.scss
+
+@media (max-width: 1200px) {
+  /* Ajustements pour les grands écrans */
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Ajustements pour les écrans moyens */
+  .pricing-card {
+    width: 48%; /* Deux cartes par ligne */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Ajustements pour les petits écrans */
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .pricing-card {
+    width: 100%; /* Une seule carte par ligne */
+  }
+}
+
+@media (max-width: 576px) {
+  /* Ajustements pour les très petits écrans */
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}

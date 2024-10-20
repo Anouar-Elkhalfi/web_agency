@@ -1,0 +1,44 @@
+.about-section {
+  background-color: #000; /* Fond noir */
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+
+  .about-content {
+    margin-bottom: 40px;
+    h2 {
+      font-size: 2rem;
+      line-height: 1.5;
+      font-weight: 400;
+      max-width: 900px;
+      margin: 0 auto;
+      .highlight {
+        color: #9ed443; /* Vert pour Startups */
+      }
+      .highlight-ai {
+        color: #007bff; /* Bleu pour AI */
+      }
+    }
+  }
+
+  .about-stats {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .stat-item {
+      flex: 1 1 15%;
+      margin: 15px;
+      h3 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0;
+      }
+      p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+        font-weight: 300;
+      }
+    }
+  }
+}
